@@ -1,0 +1,111 @@
+PSEUDOCODE: Simple Payroll Management System
+
+BEGIN
+
+     Display system title
+    DISPLAY "=============================="
+    DISPLAY "SIMPLE PAYROLL MANAGEMENT SYSTEM"
+    DISPLAY "=============================="
+    
+    Declare variables
+    DECLARE numberOfEmployees AS INTEGER
+    DECLARE totalPayroll AS DOUBLE = 0.0
+    DECLARE employeeCount AS INTEGER = 0
+    
+     Get number of employees
+    DISPLAY "Enter number of employees: "
+    INPUT numberOfEmployees
+    
+     Validate number of employees
+    WHILE numberOfEmployees <= 0 DO
+        DISPLAY "Invalid input. Please enter a positive number: "
+        INPUT numberOfEmployees
+    END WHILE
+    
+     Create vector to store employees
+    DECLARE employees AS VECTOR OF EmployeePayroll
+    
+     Process each employee
+    FOR i = 1 TO numberOfEmployees DO
+        
+        DISPLAY "Employee " + i
+        DISPLAY "-------------------"
+        
+         Input employee details
+        DISPLAY "Enter employee ID: "
+        INPUT employeeID
+        
+        DISPLAY "Enter employee name: "
+        INPUT employeeName
+        
+        DISPLAY "Enter department: "
+        INPUT department
+        
+        DISPLAY "Enter basic salary: "
+        INPUT basicSalary
+        
+        DISPLAY "Enter allowance: "
+        INPUT allowance
+        
+        DISPLAY "Enter deduction: "
+        INPUT deduction
+        
+         Validate inputs - reject negative values
+        IF basicSalary < 0 OR allowance < 0 OR deduction < 0 THEN
+            DISPLAY "Invalid payroll record - negative values not allowed"
+            DISPLAY "Skipping this employee..."
+            CONTINUE
+        END IF
+        
+         Calculate gross salary
+        grossSalary = basicSalary + allowance
+        
+         Calculate net salary
+        netSalary = grossSalary - deduction
+        
+         Determine salary status
+        IF deduction > grossSalary THEN
+            salaryStatus = "Review Required"
+        ELSE
+            salaryStatus = "Ready for Payment"
+        END IF
+        
+         Increment valid employee count
+        employeeCount = employeeCount + 1
+        
+         Update total payroll
+        IF netSalary > 0 THEN
+            totalPayroll = totalPayroll + netSalary
+        END IF
+        
+         Display payroll report on screen
+        DISPLAY "=============================="
+        DISPLAY "PAYROLL REPORT"
+        DISPLAY "=============================="
+        DISPLAY "Employee ID: " + employeeID
+        DISPLAY "Employee Name: " + employeeName
+        DISPLAY "Department: " + department
+        DISPLAY "Basic Salary: GHS " + basicSalary
+        DISPLAY "Allowance: GHS " + allowance
+        DISPLAY "Deduction: GHS " + deduction
+        DISPLAY "Gross Salary: GHS " + grossSalary
+        DISPLAY "Net Salary: GHS " + netSalary
+        DISPLAY "Status: " + salaryStatus
+        DISPLAY "=============================="
+        
+         Save to file (will be handled by function)
+        SAVE employee record to payroll_report.txt
+        
+    END FOR
+    
+     Display summary
+    DISPLAY "=============================="
+    DISPLAY "PAYROLL SUMMARY"
+    DISPLAY "=============================="
+    DISPLAY "Total employees processed: " + employeeCount
+    DISPLAY "Total payroll amount: GHS " + totalPayroll
+    DISPLAY "=============================="
+    DISPLAY "Payroll report saved successfully to payroll_report.txt"
+    DISPLAY "=============================="
+
+END
