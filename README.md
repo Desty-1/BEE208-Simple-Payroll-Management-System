@@ -150,16 +150,16 @@ Individual Contribution Table
 
 |STUDENT|ROLE|CONTRIBUTION|
 |-|-|-|
-||Project Lead|Overall coordination and management|
-||Algorithm writer|Wrote the step by step algorithm|
-||Pseudocode Writer|Wrote the pseudocode|
-||Flowchart Designer|Designed the programme flowchart|
-||C++ Programmer|Wrote the main C++ code|
-||C++ Programmer|Assisted with coding and debugging|
-||Testing Lead|Tested programme with multiple inputs|
-||GitHub Manager|Managed repository and uploads|
-||Documentation Lead|Wrote README and documentation|
-||Presentation Lead|Prepared group presentation|
+|Apaabey Awenpagrim Isaac(01244078B)|Project Lead|Overall coordination and management|
+|Anim Prince Duah(01242516B)|Algorithm writer|Wrote the step by step algorithm|
+|Amponsah David Kweku(01244372B)|Pseudocode Writer|Wrote the pseudocode|
+|Essel Richmond(01242959B)|Flowchart Designer|Designed the programme flowchart|
+|Ibrahim Nyamikeh(01243690B)|C++ Programmer|Wrote the main C++ code|
+|Israel Ashirifi Gogo(01241565B)|C++ Programmer|Assisted with coding and debugging|
+|Faisel Ali(01242908B)|Testing Lead|Tested programme with multiple inputs|
+|Adusu Destiny(01242847B)|GitHub Manager|Managed repository and uploads|
+|Abdul Mutalib Nazir(01243260B)|Documentation Lead|Wrote README and documentation|
+|Anti Patrick(01242896B)|Presentation Lead|Prepared group presentation|
 
 
 
