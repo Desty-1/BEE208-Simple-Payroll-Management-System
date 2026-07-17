@@ -151,7 +151,7 @@ Individual Contribution Table
 |STUDENT|ROLE|CONTRIBUTION|
 |-|-|-|
 |Apaabey Awenpagrim (01244078B)|Project Lead|Overall coordination and management|
-|AnimPrince Duah (01242516B)|Algorithm writer|Wrote the step by step algorithm|
+|Anim Prince Duah (01242516B)|Algorithm writer|Wrote the step by step algorithm|
 |Amponsah David Kweku (01244372B)|Pseudocode Writer|Wrote the pseudocode|
 |Essel Richmond (01242959B)|Flowchart Designer|Designed the programme flowchart|
 |Ibrahim Nyamikeh (01243690B)|C++ Programmer|Wrote the main C++ code|
