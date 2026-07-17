@@ -158,7 +158,7 @@ Individual Contribution Table
 |Israel Ashirifi Gogo (01241565B)|C++ Programmer|Assisted with coding and debugging|
 |Faisel Ali (01242908B)|Testing Lead|Tested programme with multiple inputs|
 |Adusu Destiny (01242847B)|GitHub Manager|Managed repository and uploads|
-|Abdul Mutalib Nazir (01243260B)|Documentation Lead|Wrote README and documentation|
+|Abdul Mutalib Nazir  (01243260B)|Documentation Lead|Wrote README and documentation|
 |Anti Patrick (01242896B)|Presentation Lead|Prepared group presentation|
 
 
