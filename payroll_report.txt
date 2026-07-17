@@ -1,0 +1,36 @@
+================================
+SIMPLE PAYROLL MANAGEMENT SYSTEM
+================================
+
+Employee 1
+-------------------
+Employee ID   : 01242516B
+Employee Name : Anim Prince Duah
+Department    : Engingineering Department
+Basic Salary  : GHS 5000.00
+Allowance     : GHS 1500.00
+Deduction     : GHS 500.00
+Gross Salary  : GHS 6500.00
+Net Salary    : GHS 6000.00
+Status        : Ready for Payment
+================================
+
+Employee 2
+-------------------
+Employee ID   : 01242959B
+Employee Name : Essel Richmond
+Department    : Engineering Department
+Basic Salary  : GHS 4000.00
+Allowance     : GHS 600.00
+Deduction     : GHS 100.00
+Gross Salary  : GHS 4600.00
+Net Salary    : GHS 4500.00
+Status        : Ready for Payment
+================================
+
+================================
+PAYROLL SUMMARY
+================================
+Total employees processed : 2
+Total payroll amount      : GHS 10500.00
+================================
